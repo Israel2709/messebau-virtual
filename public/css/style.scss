@@ -1,0 +1,92 @@
+$base-color: #000;
+$row-height:33.33vh;
+
+@for $i from 1 through 25 {
+  .grid-container [class^="grid-item"]:nth-child(#{$i}) {
+    background-color: lighten($base-color, $i * 2%);
+    color:white;
+  }
+}
+
+.grid-container{
+    display:grid;
+    grid-gap:0px;
+    background-color:peru;
+    grid-template-columns: auto auto auto;
+    padding:0;
+    [class^="grid-item"]{
+        height:33.33vh;
+        background-size:cover;
+        background-position:center;
+    }
+    .grid-item-{
+        &1{
+            grid-column:1 / span 3;
+            height:100vh;
+            #header-carousel{
+                .carousel-item{
+                    height:100vh;
+                }
+            }
+        }
+        &2{
+            grid-column:1/ span 2;
+            grid-row:2 / span 2;
+            height:66.66vh;
+        }
+        &3{
+            background-image:url('../img/grid-item-3.jpg')
+        }
+        &6{
+            background-image:url('../img/grid-item-6.jpg') 
+        }
+        &9{
+            background-image:url('../img/grid-item-9.jpg')
+        }
+        &10{
+            grid-column: 2 / span 2;
+            grid-row: 5 / span 2;
+            height:66.66vh;
+        }
+        &11{
+            background-image:url('../img/grid-item-11.jpg')
+        }
+        &12{
+            background-image:url('../img/grid-item-12.jpeg')
+        }
+        &14{
+            grid-column: 1 / span 2;
+            grid-row: 8 / span 2;
+            height:66.66vh;
+        }
+        &15{
+            background-image:url('../img/grid-item-15.jpeg')
+        }
+        &16{
+            background-image:url('../img/grid-item-16.jpeg')
+        }
+        &17{
+            background-image:url('../img/grid-item-17.jpeg')
+        }
+        &19{
+            background-image:url('../img/grid-item-19.jpeg')
+        }
+        &20{
+            background-image:url('../img/grid-item-20.jpeg')
+        }
+        &22{
+            grid-column: 2 / span 2;
+            grid-row: 11 / span 2;
+            height:66.66vh;
+        }
+        &23{
+            background-image:url('../img/grid-item-23.jpeg')
+        }
+        &24{
+            background-image:url('../img/grid-item-24.jpg')
+        }
+        &25{
+            background-image:url('../img/grid-item-25.jpg')
+        }
+    }
+}

@@ -151,7 +151,10 @@ footer {
         & > ul {
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            & > li:not(:last-child){
+                margin-right:50px;
+            }
         }
     }
 }

@@ -316,9 +316,12 @@ footer .social-networks li a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer > ul > li:not(:last-child) {
+    margin-right: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -241,10 +241,8 @@ body {
 }
 
 .img-leduup {
-  width: 130px;
-  height: 20px;
-  padding-right: 50px;
-  padding-bottom: 5px;
+  width: 90px;
+  height: 40px;
 }
 
 .title-principal {
@@ -255,11 +253,6 @@ body {
 .text-white {
   color: white;
   font-size: 12px;
-}
-
-.padding-members {
-  padding-top: 100px;
-  padding-left: 50px;
 }
 
 footer {

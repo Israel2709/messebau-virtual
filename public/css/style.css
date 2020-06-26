@@ -217,13 +217,13 @@ body {
 }
 
 .logo {
-  width: 70px;
+  width: 60px;
   height: 60px;
   padding: 4px;
 }
 
 .logo-ccfm {
-  width: 100px;
+  width: 80px;
   height: 40px;
   padding: 4px;
   margin-top: 10px;
@@ -231,8 +231,6 @@ body {
 
 .img-wrapper {
   padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
   overflow: hidden;
 }
 
@@ -252,7 +250,7 @@ body {
 
 .text-white {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 footer {

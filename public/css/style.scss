@@ -1,5 +1,5 @@
 body {
-   font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 .grid-container{
     display:grid;
@@ -180,17 +180,18 @@ body {
     background-color:#0000;
 }
 .img-leduup{
-    width: 80px;
+    width: 130px;
     height: 20px;
-    padding-right: 2px;
+    padding-right: 50px;
+    padding-bottom: 5px;
 }
 .title-principal{
     color:#0471b6;
-    font-size: 23px;
+    font-size: 20px;
 }
 .text-white{
     color:white;
-    font-size: 14px;
+    font-size: 12px;
 }
 .padding-members{
     padding-top:100px;

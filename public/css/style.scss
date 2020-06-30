@@ -33,6 +33,84 @@ body {
             }
         }
     }
+
+    nav {
+        position: absolute;
+        z-index: 2;
+        top: 50px;
+        right: 0;
+        color: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+        .wrapper-logo{
+            margin-right:37%;
+        }
+        .wrapper-nav {
+            input[type="checkbox"] {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                top: 0;
+                right: 25px;
+                opacity: 0;
+                z-index: 3;
+
+                &:checked ~ .menu-options {
+                    visibility: visible;
+                }
+                &:checked ~ .fa-bars {
+                    visibility: collapse;
+                }
+                &:checked ~ .fa-times {
+                    visibility: visible;
+                }
+            }
+
+            .fa-bars, 
+            .fa-times {
+                font-size: 30px;
+                position: absolute;
+                top: 0;
+                right: 25px;
+                z-index: -1;
+            }
+
+            .fa-times {
+                visibility: collapse;
+            }
+
+            .menu-options {
+                visibility: hidden;
+                list-style: none;
+                margin: 0;
+                position: relative;
+                top: -5px;
+                right: 55px;
+                padding: 20px;
+                background-color: rgba(#000, .5);
+                border-radius: 2px;
+                li {
+                    width: 210px;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        text-align: center;
+                        &:hover {
+                            color: #f8f8f8d9;
+                            transition: margin-left 1s ease ;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                & > li:not(:last-child) {
+                    border-bottom: 1px solid #f8f8f8;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
 }
 .grid-container{
     display:grid;

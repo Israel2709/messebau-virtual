@@ -47,6 +47,94 @@ body .icons-fixed .wrapper-icons .wrapper-icon .fa-envelope {
   left: 9px;
 }
 
+body nav {
+  position: absolute;
+  z-index: 2;
+  top: 50px;
+  right: 0;
+  color: #fff;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body nav .wrapper-logo {
+  margin-right: 37%;
+}
+
+body nav .wrapper-nav input[type="checkbox"] {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  right: 25px;
+  opacity: 0;
+  z-index: 3;
+}
+
+body nav .wrapper-nav input[type="checkbox"]:checked ~ .menu-options {
+  visibility: visible;
+}
+
+body nav .wrapper-nav input[type="checkbox"]:checked ~ .fa-bars {
+  visibility: collapse;
+}
+
+body nav .wrapper-nav input[type="checkbox"]:checked ~ .fa-times {
+  visibility: visible;
+}
+
+body nav .wrapper-nav .fa-bars,
+body nav .wrapper-nav .fa-times {
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  z-index: -1;
+}
+
+body nav .wrapper-nav .fa-times {
+  visibility: collapse;
+}
+
+body nav .wrapper-nav .menu-options {
+  visibility: hidden;
+  list-style: none;
+  margin: 0;
+  position: relative;
+  top: -5px;
+  right: 55px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+body nav .wrapper-nav .menu-options li {
+  width: 210px;
+}
+
+body nav .wrapper-nav .menu-options li a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+body nav .wrapper-nav .menu-options li a:hover {
+  color: #f8f8f8d9;
+  -webkit-transition: margin-left 1s ease;
+  transition: margin-left 1s ease;
+  margin-left: 10px;
+}
+
+body nav .wrapper-nav .menu-options > li:not(:last-child) {
+  border-bottom: 1px solid #f8f8f8;
+  margin-bottom: 8px;
+}
+
 .grid-container {
   display: -ms-grid;
   display: grid;

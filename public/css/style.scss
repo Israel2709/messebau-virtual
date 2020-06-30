@@ -322,6 +322,23 @@ nav {
 .carousel-height{
     height: 32vh;
 }
+
+//titles images
+.title-image{
+    color: white;
+    font-size: 17px;
+    font-weight:bold;
+    position: relative;
+    top: 23px;
+    left: 30px;
+}
+.subtitle-image{
+    color: white;
+    font-size: 12px;
+    position:relative;
+    top: 20px;
+    left: 30px;
+}
 // footer
 footer {
     display: flex;
@@ -353,6 +370,9 @@ footer {
                 } 
             }
         }
+    }
+    .mail{
+        color:#f8f8f8;
     }
     .social-networks {
         display: flex;

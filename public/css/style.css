@@ -67,8 +67,9 @@ body {
   left: 9px;
 }
 
-.icon-camera {
+.icon-contact {
   width: 35px;
+  margin-top: 10px;
 }
 
 nav {
@@ -390,6 +391,7 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
 .img-leduup {
   width: 20%;
   height: 20%;
+  margin-right: 60px;
 }
 
 .img-herramientas {

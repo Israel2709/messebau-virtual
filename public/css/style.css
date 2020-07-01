@@ -199,10 +199,10 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
 
 .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption {
   position: absolute;
-  top: 25vh;
-  left: 10vw;
-  width: 40vw;
-  height: 50vh;
+  top: 32.5vh;
+  left: 0vw;
+  width: 45vw;
+  height: 35vh;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 30px;
 }

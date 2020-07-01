@@ -411,6 +411,10 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
   height: 32vh;
 }
 
+.sliders {
+  height: 100%;
+}
+
 .title-image {
   color: white;
   font-size: 17px;

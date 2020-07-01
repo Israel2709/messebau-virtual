@@ -346,7 +346,15 @@ nav {
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.8);
     margin-left: 20px;
 }
-
+.modal-bg{
+   background-color:#0A0A0A;
+}
+.logo-modal{
+    width: 40%;
+    height: 10%;
+    display:block;
+    margin:auto;
+}
 // footer
 footer {
     display: flex;

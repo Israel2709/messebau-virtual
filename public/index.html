@@ -458,11 +458,33 @@
   <footer>
     <ul>
       <li>
-        <a href="">Dirección <i class="fas fa-map-marker-alt"></i></a>
+        <a  role="button" class="text-aling" data-toggle="modal" data-target="#exampleModal">
+          Dirección <i class="fas fa-map-marker-alt"></i>
+        </a>
         <p>
           Tehuantepec 170, Colonia Roma Sur <br>
           CP 06760, CDMX, México
         </p>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content modal-bg p-2">
+              <div class="modal-header border-0">
+                <img  class="logo-modal"src="./img/logos/main-logo.png" ></img>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1818433476587!2d-99.16620468498964!3d19.404547546605084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff1445ebc0cf%3A0x92d73b78f89f266b!2sTehuantepec%20170%2C%20Roma%20Sur%2C%20Cuauht%C3%A9moc%2C%2006760%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1593643001436!5m2!1ses!2smx"
+                  width="450" height="450" class="" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                  tabindex="0"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </li>
       <li>
         <a href="">Mail</a>

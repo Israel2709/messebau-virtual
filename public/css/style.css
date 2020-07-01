@@ -437,6 +437,17 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
   margin-left: 20px;
 }
 
+.modal-bg {
+  background-color: #0A0A0A;
+}
+
+.logo-modal {
+  width: 40%;
+  height: 10%;
+  display: block;
+  margin: auto;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -163,7 +163,7 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
   background-color: white;
   -ms-grid-columns: (33.33vw)[3];
       grid-template-columns: repeat(3, 33.33vw);
-  grid-gap: 1px;
+  grid-gap: 2px;
   padding: 0;
   width: 100%;
   overflow: hidden;
@@ -515,6 +515,10 @@ footer .social-networks li {
 footer .social-networks li a {
   text-decoration: none;
   color: #fff;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {

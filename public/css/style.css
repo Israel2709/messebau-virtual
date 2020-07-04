@@ -726,10 +726,11 @@ footer .social-networks li a {
     display: none;
   }
   #our-clients {
-    margin-top: 60px;
+    margin-top: 0px;
   }
   .title-principal {
-    font-size: 16px;
+    font-size: 15px;
+    margin-top: 0px !important;
   }
   .text-white {
     font-size: 13px;

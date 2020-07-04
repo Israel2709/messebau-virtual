@@ -258,6 +258,10 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
   background-image: url("../img/grid-item-3.jpg");
 }
 
+.grid-container .grid-item-5 #slider-images {
+  display: none !important;
+}
+
 .grid-container .grid-item-6 {
   background-image: url("../img/grid-item-6.jpg");
 }
@@ -653,6 +657,12 @@ footer .social-networks li a {
     -ms-grid-row-span: 1;
     grid-row: 2 / span 1;
   }
+  .grid-container .grid-item-5 #slider-images {
+    display: unset;
+  }
+  .grid-container .grid-item-5 #video-1 {
+    display: none !important;
+  }
   .grid-container .grid-item-7 {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
@@ -782,6 +792,12 @@ footer .social-networks li a {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/ span 1;
+  }
+  .grid-container .grid-item-5 #slider-images {
+    display: unset;
+  }
+  .grid-container .grid-item-5 #video-1 {
+    display: none !important;
   }
   .grid-container .grid-item-6 {
     -ms-grid-column: 1;

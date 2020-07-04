@@ -481,9 +481,8 @@ footer {
 }
 
 //tablet portrait
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width : 679px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
   .grid-container {
-    grid-gap: 1px;
     grid-template-columns: repeat(2, 50vw);
     [class^="grid-item"] {
       height: 50vh;
@@ -492,12 +491,13 @@ footer {
     .grid-item- {
       &1 {
         grid-column: 1 / span 2;
-        height: 50vh;
         width: 100vw;
+        height: 50vh;
         #header-carousel {
           height: 50vh;
           .carousel-inner {
             .carousel-item {
+              height: 50vh;
               .carousel-caption {
                 height: 22vh;
                 top: 18vh;
@@ -515,6 +515,9 @@ footer {
             }
           }
         }
+      }
+      &2 {
+        grid-column: 1 / span 2;
       }
       &4 {
         grid-column: 1/ span 1;

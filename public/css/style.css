@@ -601,9 +601,8 @@ footer .social-networks li a {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 679px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .grid-container {
-    grid-gap: 1px;
     -ms-grid-columns: (50vw)[2];
         grid-template-columns: repeat(2, 50vw);
   }
@@ -615,10 +614,13 @@ footer .social-networks li a {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-column: 1 / span 2;
-    height: 50vh;
     width: 100vw;
+    height: 50vh;
   }
   .grid-container .grid-item-1 #header-carousel {
+    height: 50vh;
+  }
+  .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item {
     height: 50vh;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption {
@@ -632,6 +634,11 @@ footer .social-networks li a {
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content p {
     font-size: 14px;
+  }
+  .grid-container .grid-item-2 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
   }
   .grid-container .grid-item-4 {
     -ms-grid-column: 1;

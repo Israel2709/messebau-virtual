@@ -625,16 +625,16 @@ footer .social-networks li a {
     height: 50vh;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption {
-    height: 22vh;
-    top: 18vh;
+    height: 28vh;
+    top: 14vh;
     left: 0vw;
     width: 70vw;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content .content-title {
-    font-size: 22px;
+    font-size: 15px;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content p {
-    font-size: 14px;
+    font-size: 11px;
   }
   .grid-container .grid-item-2 {
     -ms-grid-column: 1;

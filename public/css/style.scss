@@ -606,6 +606,129 @@ footer {
   .text-white{
     font-size: 13px;
   }
+}
 
-  
+
+@media only screen and (max-width: 425px) {
+  .grid-container {
+    grid-template-columns: 100vw;
+    grid-gap: 1px;
+    [class^="grid-item"] {
+      height: 50vh;
+      width: 100vw;
+    }
+    .grid-item- {
+      &1 {
+        grid-column: 1 / span 2;
+        width: 100vw;
+        height: 50vh;
+        #header-carousel {
+          height: 50vh;
+          .carousel-inner {
+            .carousel-item {
+              height: 50vh;
+              .carousel-caption {
+                height: 28vh;
+                top: 14vh;
+                left: 0vw;
+                width: 70vw;
+                .wrapper-content {
+                  .content-title {
+                    font-size: 15px;
+                  }
+                  p {
+                    font-size: 11px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &2 {
+        grid-column: 1 / span 1;
+        display: none;
+      }
+      &3 {
+        display: none;
+      }
+      &4 {
+        grid-column: 1/ span 1;
+        grid-row: 2 / span 1;
+      }
+      &5{
+        grid-column: 1/ span 1;
+      }
+      &6 {
+        grid-column: 1/ span 1;
+      }
+      &7 {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 2
+      }
+      &8{
+          display:none;
+      }
+      &9 {
+        display:none;
+      }
+      &10 {
+        display:none;
+      }
+      &11 {
+        display:none;
+      }
+      &12 {
+        display:none;
+      }
+      &13{
+        display:none;
+      }
+      &14 {
+        display:none;
+      }
+      &15 {
+        display:none;
+      }
+      &16 {
+        display:none;
+      }
+      &17 {
+        display:none;
+      }
+      &18{
+        display:none;
+      }
+      &19 {
+        display:none;
+      }
+      &20 {
+        display:none;
+      }
+      &21{
+        display:none;
+      }
+      &22 {
+        display:none;
+      }
+      &23 {
+        display:none;
+      }
+      &24 {
+        display:none;
+      }
+      &25 {
+        display:none;
+      }
+    }
+  }
+  #our-clients{
+    margin-top: 60px;
+  }
+  .title-principal {
+    font-size:16px;
+  }
+  .text-white{
+    font-size: 13px;
+  }
 }

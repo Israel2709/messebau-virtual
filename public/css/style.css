@@ -715,8 +715,14 @@ footer .social-networks li a {
   .grid-container .grid-item-25 {
     display: none;
   }
-  .tablet-portrait {
-    margin-top: 150px;
+  #our-clients {
+    margin-top: 60px;
+  }
+  .title-principal {
+    font-size: 16px;
+  }
+  .text-white {
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */

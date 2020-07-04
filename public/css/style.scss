@@ -210,6 +210,11 @@ nav {
     &4 {
      
     }
+    &5{
+      #slider-images{
+        display: none !important;
+      }
+    }
     &6 {
       background-image: url("../img/grid-item-6.jpg");
     }
@@ -265,6 +270,7 @@ nav {
       background-image: url("../img/grid-item-25.jpg");
     }
   }
+  
 }
 //carousels
 .text-uppercase {
@@ -532,7 +538,9 @@ footer {
         grid-row: 2 / span 1;
       }
       &5{
-        
+        #video-5{
+          display: none;
+        }   
       }
       &6 {
         
@@ -598,14 +606,14 @@ footer {
     }
   }
   #our-clients{
-    margin-top: 60px;
+    margin-top: 0px;
   }
   .title-principal {
-    font-size:16px;
+    font-size:15px;
+    margin-top: 0px !important;
   }
   .text-white{
     font-size: 13px;
   }
-
   
 }

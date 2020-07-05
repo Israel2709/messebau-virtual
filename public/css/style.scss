@@ -382,6 +382,7 @@ footer {
   height: 450px;
   padding: 40px;
   background-color: black;
+  margin-top: 1px;
   & > ul {
     list-style: none;
     color: #fff;
@@ -767,7 +768,7 @@ footer {
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
         #slider-images-custom-1 {
-          
+
         }
       }
       &27 {

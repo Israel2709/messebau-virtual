@@ -625,6 +625,16 @@ footer p:last-child {
   .grid-container .grid-item-28 {
     display: none;
   }
+  .grid-container .icons-fixed {
+    top: calc(50% - 60px);
+    right: 0;
+    width: 50px;
+    height: 40px;
+  }
+  .grid-container .icon-contact {
+    width: 30px;
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (min-device-width: 659px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
@@ -764,14 +774,25 @@ footer p:last-child {
     display: unset;
   }
   #our-clients {
-    margin-top: 0px;
+    margin-top: 10vh;
   }
   .title-principal {
-    font-size: 15px;
+    font: size 18px;
     margin-top: 0px !important;
   }
   .text-white {
-    font-size: 13px;
+    font-size: 15px;
+  }
+  .icons-fixed {
+    top: calc(30% - 60px);
+    right: 0;
+    width: 50px;
+    height: 0px;
+  }
+  .icon-contact {
+    width: 70%;
+    height: 20%;
+    margin-top: 10px;
   }
 }
 
@@ -934,6 +955,19 @@ footer p:last-child {
   }
   .text-white {
     font-size: 13px;
+  }
+  .ubication-messebau {
+    width: 100%;
+  }
+  .icons-fixed {
+    top: calc(30% - 60px);
+    right: 0;
+    width: 50px;
+    height: 40px;
+  }
+  .icon-contact {
+    width: 30px;
+    margin-top: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */

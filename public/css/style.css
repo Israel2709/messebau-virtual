@@ -794,6 +794,22 @@ footer p:last-child {
     height: 20%;
     margin-top: 10px;
   }
+  #full-size-carousel .carousel-item {
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #full-size-carousel .carousel-item:first-child {
+    background-image: url("https://picsum.photos/id/27/600");
+  }
+  #full-size-carousel .carousel-item:nth-of-type(2) {
+    background-image: url("https://picsum.photos/id/175/600");
+  }
+  #full-size-carousel .carousel-item:nth-of-type(3) {
+    background-image: url("https://picsum.photos/id/123/600");
+  }
 }
 
 @media only screen and (max-width: 425px) {

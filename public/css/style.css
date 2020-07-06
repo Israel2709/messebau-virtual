@@ -810,6 +810,43 @@ footer p:last-child {
   #full-size-carousel .carousel-item:nth-of-type(3) {
     background-image: url("https://picsum.photos/id/123/600");
   }
+  #full-size-carousel .carousel-item:nth-of-type(4) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+  }
+  #full-size-carousel .carousel-item:nth-of-type(5) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+  }
+  #full-size-carousel .carousel-item:nth-of-type(6) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+  }
+  #full-size-carousel-2 .carousel-item {
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #full-size-carousel-2 .carousel-item:first-child {
+    background-image: url("https://picsum.photos/id/27/600");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(2) {
+    background-image: url("https://picsum.photos/id/175/600");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(3) {
+    background-image: url("https://picsum.photos/id/123/600");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(4) {
+    background-image: url("https://picsum.photos/id/123/600");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(5) {
+    background-image: url("https://picsum.photos/200/300/?blur");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(6) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(7) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -984,6 +1021,59 @@ footer p:last-child {
   .icon-contact {
     width: 30px;
     margin-top: 5px;
+  }
+  #full-size-carousel .carousel-item {
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #full-size-carousel .carousel-item:first-child {
+    background-image: url("https://picsum.photos/id/27/600");
+  }
+  #full-size-carousel .carousel-item:nth-of-type(2) {
+    background-image: url("https://picsum.photos/id/175/600");
+  }
+  #full-size-carousel .carousel-item:nth-of-type(3) {
+    background-image: url("https://picsum.photos/id/123/600");
+  }
+  #full-size-carousel .carousel-item:nth-of-type(4) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+  }
+  #full-size-carousel .carousel-item:nth-of-type(5) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+  }
+  #full-size-carousel .carousel-item:nth-of-type(6) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+  }
+  #full-size-carousel-2 .carousel-item {
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #full-size-carousel-2 .carousel-item:first-child {
+    background-image: url("https://picsum.photos/id/27/600");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(2) {
+    background-image: url("https://picsum.photos/id/175/600");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(3) {
+    background-image: url("https://picsum.photos/id/123/600");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(4) {
+    background-image: url("https://picsum.photos/id/123/600");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(5) {
+    background-image: url("https://picsum.photos/200/300/?blur");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(6) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
+  }
+  #full-size-carousel-2 .carousel-item:nth-of-type(7) {
+    background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
   }
 }
 /*# sourceMappingURL=style.css.map */

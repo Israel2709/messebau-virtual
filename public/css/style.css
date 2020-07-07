@@ -206,6 +206,8 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
   height: 35vh;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content {
@@ -574,10 +576,15 @@ footer p:last-child {
     width: 100vw;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption {
-    height: 48vh;
+    height: 30vh;
+    top: 33vh;
+    left: 0vw;
+    width: 50vw;
+    padding: 20px;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content .content-title {
     font-size: 22px;
+    text-align: center;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content p {
     font-size: 14px;
@@ -635,6 +642,9 @@ footer p:last-child {
     width: 30px;
     margin-top: 10px;
   }
+  .hide-text {
+    display: none !important;
+  }
 }
 
 @media only screen and (min-device-width: 659px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
@@ -661,13 +671,14 @@ footer p:last-child {
     height: 50vh;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption {
-    height: 28vh;
+    height: 20vh;
     top: 14vh;
     left: 0vw;
-    width: 70vw;
+    width: 50vw;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content .content-title {
-    font-size: 15px;
+    font-size: 20px;
+    text-align: center;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content p {
     font-size: 11px;
@@ -684,7 +695,7 @@ footer p:last-child {
   .grid-container .grid-item-4 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
-    grid-column: 1/ span 1;
+    grid-column: 1 / span 1;
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2 / span 1;
@@ -876,13 +887,17 @@ footer p:last-child {
     height: 50vh;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption {
-    height: 35vh;
-    top: 5vh;
+    height: 23vh;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    top: 15vh;
     left: 0vw;
-    width: 70vw;
+    width: 60vw;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content .content-title {
-    font-size: 10px;
+    font-size: 16px;
+    text-align: center;
   }
   .grid-container .grid-item-1 #header-carousel .carousel-inner .carousel-item .carousel-caption .wrapper-content p {
     font-size: 8px;
@@ -899,7 +914,7 @@ footer p:last-child {
   .grid-container .grid-item-4 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
-    grid-column: 1/ span 1;
+    grid-column: 1 / span 1;
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2 / span 1;
@@ -908,7 +923,7 @@ footer p:last-child {
     display: none;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
-    grid-column: 1/ span 1;
+    grid-column: 1 / span 1;
   }
   .grid-container .grid-item-7 {
     display: none;

@@ -168,6 +168,8 @@ nav {
               height: 35vh;
               background-color: rgba(0, 0, 0, 0.7);
               padding: 30px;
+              padding-left: 60px;
+              padding-right: 60px;
               .wrapper-content {
                 width: 100%;
                 height: 100%;
@@ -208,7 +210,6 @@ nav {
       background-image: url("../img/grid-item-3.jpg");
     }
     &4 {
-     
     }
     &5 {
     }
@@ -267,16 +268,15 @@ nav {
       background-image: url("../img/grid-item-25.jpg");
     }
     &26 {
-      display:none;
+      display: none;
     }
     &27 {
-      display:none;
+      display: none;
     }
     &28 {
-      display:none;
+      display: none;
     }
   }
-  
 }
 //carousels
 .text-uppercase {
@@ -463,10 +463,15 @@ footer {
           .carousel-inner {
             .carousel-item {
               .carousel-caption {
-                height: 48vh;
+                height: 30vh;
+                top: 33vh;
+                left: 0vw;
+                width: 50vw;
+                padding: 20px;
                 .wrapper-content {
                   .content-title {
                     font-size: 22px;
+                    text-align: center;
                   }
                   p {
                     font-size: 14px;
@@ -496,13 +501,13 @@ footer {
         grid-row: 11 / span 1;
       }
       &26 {
-        display:none;
+        display: none;
       }
       &27 {
-        display:none;
+        display: none;
       }
       &28 {
-        display:none;
+        display: none;
       }
     }
     .icons-fixed {
@@ -516,10 +521,14 @@ footer {
       margin-top: 10px;
     }
   }
+  .hide-text{
+    display:none !important;
+  }
+ 
 }
 
 //tablet portrait
-@media only screen and (min-device-width : 659px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+@media only screen and (min-device-width: 659px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .grid-container {
     grid-template-columns: repeat(2, 50vw);
     grid-gap: 1px;
@@ -538,13 +547,14 @@ footer {
             .carousel-item {
               height: 50vh;
               .carousel-caption {
-                height: 28vh;
+                height: 20vh;
                 top: 14vh;
                 left: 0vw;
-                width: 70vw;
+                width: 50vw;
                 .wrapper-content {
                   .content-title {
-                    font-size: 15px;
+                    font-size: 20px;
+                    text-align: center;
                   }
                   p {
                     font-size: 11px;
@@ -563,95 +573,95 @@ footer {
         display: none;
       }
       &4 {
-        grid-column: 1/ span 1;
+        grid-column: 1 / span 1;
         grid-row: 2 / span 1;
       }
-      &5{
+      &5 {
         display: none;
       }
       &6 {
-        display:none;
+        display: none;
       }
       &7 {
         display: none;
         grid-column: 2 / span 1;
-        grid-row: 3 / span 1
+        grid-row: 3 / span 1;
       }
-      &8{
-          display:none;
+      &8 {
+        display: none;
       }
       &9 {
-        display:none;
+        display: none;
       }
       &10 {
-        display:none;
+        display: none;
       }
       &11 {
-        display:none;
+        display: none;
       }
       &12 {
-        display:none;
+        display: none;
       }
-      &13{
-        display:none;
+      &13 {
+        display: none;
       }
       &14 {
-        display:none;
+        display: none;
       }
       &15 {
-        display:none;
+        display: none;
       }
       &16 {
-        display:none;
+        display: none;
       }
       &17 {
-        display:none;
+        display: none;
       }
-      &18{
-        display:none;
+      &18 {
+        display: none;
       }
       &19 {
-        display:none;
+        display: none;
       }
       &20 {
-        display:none;
+        display: none;
       }
-      &21{
-        display:none;
+      &21 {
+        display: none;
       }
       &22 {
-        display:none;
+        display: none;
       }
       &23 {
-        display:none;
+        display: none;
       }
       &24 {
-        display:none;
+        display: none;
       }
       &25 {
-        display:none;
+        display: none;
       }
       &26 {
         display: unset;
         grid-column: 2 / span 1;
-        grid-row: 2 / span 1
+        grid-row: 2 / span 1;
       }
       &27 {
-        display:unset;
+        display: unset;
       }
       &28 {
-        display:unset;
+        display: unset;
       }
     }
   }
-  #our-clients{
+  #our-clients {
     margin-top: 10vh;
   }
   .title-principal {
     font: size 18px;
     margin-top: 0px !important;
   }
-  .text-white{
+  .text-white {
     font-size: 15px;
   }
   .icons-fixed {
@@ -662,67 +672,67 @@ footer {
   }
   .icon-contact {
     width: 70%;
-    height:20% ;
+    height: 20%;
     margin-top: 10px;
   }
-  #full-size-carousel{
-    .carousel-item{
-      width:50vw;
-      height:50vh;
+  #full-size-carousel {
+    .carousel-item {
+      width: 50vw;
+      height: 50vh;
       background-size: cover;
-      background-position:center;
-      background-repeat:no-repeat;
-      &:first-child{
-        background-image:url('https://picsum.photos/id/27/600')
+      background-position: center;
+      background-repeat: no-repeat;
+      &:first-child {
+        background-image: url("https://picsum.photos/id/27/600");
       }
-      &:nth-of-type(2){
-        background-image:url('https://picsum.photos/id/175/600')
+      &:nth-of-type(2) {
+        background-image: url("https://picsum.photos/id/175/600");
       }
-      &:nth-of-type(3){
-        background-image:url('https://picsum.photos/id/123/600')
+      &:nth-of-type(3) {
+        background-image: url("https://picsum.photos/id/123/600");
       }
-      &:nth-of-type(4){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg')
+      &:nth-of-type(4) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
       }
-      &:nth-of-type(5){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg')
+      &:nth-of-type(5) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
       }
-      &:nth-of-type(6){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg')
+      &:nth-of-type(6) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
       }
     }
   }
-  #full-size-carousel-2{
-    .carousel-item{
-      width:50vw;
-      height:50vh;
+  #full-size-carousel-2 {
+    .carousel-item {
+      width: 50vw;
+      height: 50vh;
       background-size: cover;
-      background-position:center;
-      background-repeat:no-repeat;
-      &:first-child{
-        background-image:url('https://picsum.photos/id/27/600')
+      background-position: center;
+      background-repeat: no-repeat;
+      &:first-child {
+        background-image: url("https://picsum.photos/id/27/600");
       }
-      &:nth-of-type(2){
-        background-image:url('https://picsum.photos/id/175/600')
+      &:nth-of-type(2) {
+        background-image: url("https://picsum.photos/id/175/600");
       }
-      &:nth-of-type(3){
-        background-image:url('https://picsum.photos/id/123/600')
+      &:nth-of-type(3) {
+        background-image: url("https://picsum.photos/id/123/600");
       }
-      &:nth-of-type(4){
-        background-image:url('https://picsum.photos/id/123/600')
+      &:nth-of-type(4) {
+        background-image: url("https://picsum.photos/id/123/600");
       }
-      &:nth-of-type(5){
-        background-image:url('https://picsum.photos/200/300/?blur')
+      &:nth-of-type(5) {
+        background-image: url("https://picsum.photos/200/300/?blur");
       }
-      &:nth-of-type(6){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg')
+      &:nth-of-type(6) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
       }
-      &:nth-of-type(7){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg')
+      &:nth-of-type(7) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
       }
     }
-
   }
+  
 }
 
 // mobile
@@ -748,13 +758,17 @@ footer {
             .carousel-item {
               height: 50vh;
               .carousel-caption {
-                height: 35vh;
-                top: 5vh;
+                height: 23vh;
+                padding: 10px;
+                padding-right: 30px;
+                padding-left: 30px;
+                top: 15vh;
                 left: 0vw;
-                width: 70vw;
+                width: 60vw;
                 .wrapper-content {
                   .content-title {
-                    font-size: 10px;
+                    font-size: 16px;
+                    text-align: center;
                   }
                   p {
                     font-size: 8px;
@@ -773,105 +787,104 @@ footer {
         display: none;
       }
       &4 {
-        grid-column: 1/ span 1;
+        grid-column: 1 / span 1;
         grid-row: 2 / span 1;
       }
-      &5{
+      &5 {
       }
       &6 {
         display: none;
-        grid-column: 1/ span 1;
+        grid-column: 1 / span 1;
       }
       &7 {
         display: none;
         grid-column: 1 / span 1;
-        grid-row: 3 / span 2
+        grid-row: 3 / span 2;
       }
-      &8{
-          display:none;
+      &8 {
+        display: none;
       }
       &9 {
-        display:none;
+        display: none;
       }
       &10 {
-        display:none;
+        display: none;
       }
       &11 {
-        display:none;
+        display: none;
       }
       &12 {
-        display:none;
+        display: none;
       }
-      &13{
-        display:none;
+      &13 {
+        display: none;
       }
       &14 {
-        display:none;
+        display: none;
       }
       &15 {
-        display:none;
+        display: none;
       }
       &16 {
-        display:none;
+        display: none;
       }
       &17 {
-        display:none;
+        display: none;
       }
-      &18{
-        display:none;
+      &18 {
+        display: none;
       }
       &19 {
-        display:none;
+        display: none;
       }
       &20 {
-        display:none;
+        display: none;
       }
-      &21{
-        display:none;
+      &21 {
+        display: none;
       }
       &22 {
-        display:none;
+        display: none;
       }
       &23 {
-        display:none;
+        display: none;
       }
       &24 {
-        display:none;
+        display: none;
       }
       &25 {
-        display:none;
+        display: none;
       }
       &26 {
         display: unset;
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
         #slider-images-custom-1 {
-
         }
       }
       &27 {
         display: unset;
         grid-column: 1 / span 1;
-        grid-row: 4 / span 1
+        grid-row: 4 / span 1;
       }
       &28 {
         display: unset;
         grid-column: 1 / span 1;
-        grid-row: 5 / span 1
+        grid-row: 5 / span 1;
       }
     }
   }
-  #our-clients{
+  #our-clients {
     margin-top: 60px;
   }
   .title-principal {
-    font-size:16px;
+    font-size: 16px;
   }
-  .text-white{
+  .text-white {
     font-size: 13px;
   }
-  .ubication-messebau{
-    width:100%; 
+  .ubication-messebau {
+    width: 100%;
   }
   .icons-fixed {
     top: calc(30% - 60px);
@@ -883,63 +896,61 @@ footer {
     width: 30px;
     margin-top: 5px;
   }
-  #full-size-carousel{
-    .carousel-item{
-      width:100vw;
-      height:50vh;
+  #full-size-carousel {
+    .carousel-item {
+      width: 100vw;
+      height: 50vh;
       background-size: cover;
-      background-position:center;
-      background-repeat:no-repeat;
-      &:first-child{
-        background-image:url('https://picsum.photos/id/27/600')
+      background-position: center;
+      background-repeat: no-repeat;
+      &:first-child {
+        background-image: url("https://picsum.photos/id/27/600");
       }
-      &:nth-of-type(2){
-        background-image:url('https://picsum.photos/id/175/600')
+      &:nth-of-type(2) {
+        background-image: url("https://picsum.photos/id/175/600");
       }
-      &:nth-of-type(3){
-        background-image:url('https://picsum.photos/id/123/600')
+      &:nth-of-type(3) {
+        background-image: url("https://picsum.photos/id/123/600");
       }
-      &:nth-of-type(4){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg')
+      &:nth-of-type(4) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
       }
-      &:nth-of-type(5){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg')
+      &:nth-of-type(5) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
       }
-      &:nth-of-type(6){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg')
+      &:nth-of-type(6) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
       }
     }
   }
-  #full-size-carousel-2{
-    .carousel-item{
-      width:100vw;
-      height:50vh;
+  #full-size-carousel-2 {
+    .carousel-item {
+      width: 100vw;
+      height: 50vh;
       background-size: cover;
-      background-position:center;
-      background-repeat:no-repeat;
-      &:first-child{
-        background-image:url('https://picsum.photos/id/27/600')
+      background-position: center;
+      background-repeat: no-repeat;
+      &:first-child {
+        background-image: url("https://picsum.photos/id/27/600");
       }
-      &:nth-of-type(2){
-        background-image:url('https://picsum.photos/id/175/600')
+      &:nth-of-type(2) {
+        background-image: url("https://picsum.photos/id/175/600");
       }
-      &:nth-of-type(3){
-        background-image:url('https://picsum.photos/id/123/600')
+      &:nth-of-type(3) {
+        background-image: url("https://picsum.photos/id/123/600");
       }
-      &:nth-of-type(4){
-        background-image:url('https://picsum.photos/id/123/600')
+      &:nth-of-type(4) {
+        background-image: url("https://picsum.photos/id/123/600");
       }
-      &:nth-of-type(5){
-        background-image:url('https://picsum.photos/200/300/?blur')
+      &:nth-of-type(5) {
+        background-image: url("https://picsum.photos/200/300/?blur");
       }
-      &:nth-of-type(6){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg')
+      &:nth-of-type(6) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
       }
-      &:nth-of-type(7){
-        background-image:url('https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg')
+      &:nth-of-type(7) {
+        background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
       }
     }
-
   }
-  
 }

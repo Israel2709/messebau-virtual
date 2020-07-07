@@ -473,37 +473,21 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 450px;
   padding: 40px 61px;
   background-color: black;
   margin-top: 1px;
 }
 
-footer > ul {
-  list-style: none;
-  color: #fff;
-  padding: 0;
-}
-
-footer > ul > li > a {
+footer .text-address,
+footer .text-email,
+footer .text-social-networks {
   text-decoration: none;
   color: #fff;
 }
 
-footer > ul > li > a::after {
+footer .text-address::after,
+footer .text-email::after,
+footer .text-social-networks::after {
   content: "";
   height: 1px;
   width: 100%;
@@ -512,9 +496,8 @@ footer > ul > li > a::after {
   margin: 6px 0;
 }
 
-footer > ul > li > a:hover {
-  text-decoration: none;
-  color: #f8f8f8;
+footer .text-address + p {
+  color: #ffffff;
 }
 
 footer .mail {
@@ -548,24 +531,6 @@ footer p:last-child {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-@media (min-width: 768px) {
-  footer {
-    padding: 100px;
-  }
-  footer > ul {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  footer > ul > li:not(:last-child) {
-    margin-right: 50px;
-  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -659,6 +624,9 @@ footer p:last-child {
   }
   .title-principal {
     margin-top: 12vw;
+  }
+  footer .font-size {
+    font-size: 14px;
   }
 }
 
@@ -878,6 +846,12 @@ footer p:last-child {
   }
   .title-principal {
     margin-top: 20vw !important;
+  }
+  footer {
+    padding: 40px 150px;
+  }
+  footer .font-size {
+    font-size: 15px;
   }
 }
 
@@ -1116,6 +1090,9 @@ footer p:last-child {
   }
   .title-principal {
     margin-top: 25vw !important;
+  }
+  footer .font-size {
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */

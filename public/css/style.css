@@ -417,6 +417,7 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
 .title-principal {
   color: #0471b6;
   font-size: 20px;
+  margin-top: 4vw;
 }
 
 .text-white {
@@ -434,6 +435,14 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
 
 .sliders {
   height: 100%;
+}
+
+.slider-size {
+  height: 33.333vh;
+}
+
+.margin-projects {
+  margin-top: 6vw;
 }
 
 .title-image {
@@ -644,6 +653,12 @@ footer p:last-child {
   }
   .hide-text {
     display: none !important;
+  }
+  .slider-size {
+    height: 50vh;
+  }
+  .title-principal {
+    margin-top: 12vw;
   }
 }
 
@@ -857,6 +872,12 @@ footer p:last-child {
   }
   #full-size-carousel-2 .carousel-item:nth-of-type(7) {
     background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
+  }
+  .slider-size {
+    height: 50vh;
+  }
+  .title-principal {
+    margin-top: 20vw !important;
   }
 }
 
@@ -1089,6 +1110,12 @@ footer p:last-child {
   }
   #full-size-carousel-2 .carousel-item:nth-of-type(7) {
     background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
+  }
+  .slider-size {
+    height: 50vh;
+  }
+  .title-principal {
+    margin-top: 25vw !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

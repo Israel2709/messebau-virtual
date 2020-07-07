@@ -342,15 +342,15 @@ nav .wrapper-nav .menu-options > li:not(:last-child) {
 }
 
 .grid-container .grid-item-26 {
-  display: none;
+  display: none !important;
 }
 
 .grid-container .grid-item-27 {
-  display: none;
+  display: none !important;
 }
 
 .grid-container .grid-item-28 {
-  display: none;
+  display: none !important;
 }
 
 .text-uppercase {
@@ -478,7 +478,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   height: 450px;
-  padding: 40px;
+  padding: 40px 61px;
   background-color: black;
   margin-top: 1px;
 }
@@ -497,10 +497,10 @@ footer > ul > li > a {
 footer > ul > li > a::after {
   content: "";
   height: 1px;
-  width: 50%;
+  width: 100%;
   background-color: #fff;
   display: block;
-  margin-bottom: 5px;
+  margin: 6px 0;
 }
 
 footer > ul > li > a:hover {
@@ -624,13 +624,13 @@ footer p:last-child {
     grid-row: 11 / span 1;
   }
   .grid-container .grid-item-26 {
-    display: none;
+    display: none !important;
   }
   .grid-container .grid-item-27 {
-    display: none;
+    display: none !important;
   }
   .grid-container .grid-item-28 {
-    display: none;
+    display: none !important;
   }
   .grid-container .icons-fixed {
     top: calc(50% - 60px);
@@ -770,7 +770,7 @@ footer p:last-child {
     display: none;
   }
   .grid-container .grid-item-26 {
-    display: unset;
+    display: unset !important;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2 / span 1;
@@ -779,10 +779,10 @@ footer p:last-child {
     grid-row: 2 / span 1;
   }
   .grid-container .grid-item-27 {
-    display: unset;
+    display: unset !important;
   }
   .grid-container .grid-item-28 {
-    display: unset;
+    display: unset !important;
   }
   #our-clients {
     margin-top: 10vh;
@@ -989,7 +989,7 @@ footer p:last-child {
     display: none;
   }
   .grid-container .grid-item-26 {
-    display: unset;
+    display: unset !important;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / span 1;
@@ -998,7 +998,7 @@ footer p:last-child {
     grid-row: 3 / span 1;
   }
   .grid-container .grid-item-27 {
-    display: unset;
+    display: unset !important;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / span 1;
@@ -1007,7 +1007,7 @@ footer p:last-child {
     grid-row: 4 / span 1;
   }
   .grid-container .grid-item-28 {
-    display: unset;
+    display: unset !important;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / span 1;

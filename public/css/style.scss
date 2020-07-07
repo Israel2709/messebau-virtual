@@ -268,13 +268,13 @@ nav {
       background-image: url("../img/grid-item-25.jpg");
     }
     &26 {
-      display: none;
+      display: none!important;;
     }
     &27 {
-      display: none;
+      display: none!important;;
     }
     &28 {
-      display: none;
+      display: none!important;;
     }
   }
 }
@@ -380,7 +380,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 450px;
-  padding: 40px;
+  padding: 40px 61px;
   background-color: black;
   margin-top: 1px;
   & > ul {
@@ -394,10 +394,10 @@ footer {
         &::after {
           content: "";
           height: 1px;
-          width: 50%;
+          width: 100%;
           background-color: #fff;
           display: block;
-          margin-bottom: 5px;
+          margin: 6px 0;
         }
         &:hover {
           text-decoration: none;
@@ -501,13 +501,13 @@ footer {
         grid-row: 11 / span 1;
       }
       &26 {
-        display: none;
+        display: none!important;
       }
       &27 {
-        display: none;
+        display: none!important;
       }
       &28 {
-        display: none;
+        display: none!important;
       }
     }
     .icons-fixed {
@@ -642,15 +642,15 @@ footer {
         display: none;
       }
       &26 {
-        display: unset;
+        display: unset!important;
         grid-column: 2 / span 1;
         grid-row: 2 / span 1;
       }
       &27 {
-        display: unset;
+        display:unset!important;
       }
       &28 {
-        display: unset;
+        display:unset!important;
       }
     }
   }
@@ -856,19 +856,19 @@ footer {
         display: none;
       }
       &26 {
-        display: unset;
+        display: unset!important;
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
         #slider-images-custom-1 {
         }
       }
       &27 {
-        display: unset;
+        display: unset!important;
         grid-column: 1 / span 1;
         grid-row: 4 / span 1;
       }
       &28 {
-        display: unset;
+        display: unset!important;
         grid-column: 1 / span 1;
         grid-row: 5 / span 1;
       }

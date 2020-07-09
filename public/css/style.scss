@@ -131,29 +131,33 @@ nav {
       transition: 0.5s;
     }
     ul {
-      width: 300px;
+      width: 230px;
       height: auto;
       background-color: rgba(black, 0.6);
       display: block;
       margin: 0;
       padding: 0;
-      width: 306px;
     }
+
+
     li {
       list-style: none;
       display: block;
       width: 100%;
       height: auto;
-      border-bottom: 2px solid #fff;
       color:#fffafa;
       font-size: 20px;
-      padding: 20px;
+      padding: 10px;
       text-align: center;
 
       -webkit-transition: all .9s ease;
       -moz-transition: all .9s ease; ;
       -ms-transition: all .9s ease;
       transition: all .9s ease;
+
+    &:not(:last-child) {
+      border-bottom: 2px solid #fff;
+    }
 
       a {
         text-decoration: none;
@@ -165,7 +169,7 @@ nav {
 
       &:hover {
         background-color: rgba($main-blue, 0.95);
-        width: 325px; 
+        width: 235px; 
       }
     }
   }

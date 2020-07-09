@@ -252,7 +252,7 @@ nav #menu li:hover {
   top: 32.5vh;
   left: 0vw;
   width: 50vw;
-  height: 35vh;
+  height: 43vh;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 30px;
   padding-left: 60px;
@@ -467,6 +467,11 @@ nav #menu li:hover {
   color: #0471b6;
   font-size: 20px;
   margin-top: 4vw;
+}
+
+.title-dos {
+  font-size: 14px;
+  color: #0471b6;
 }
 
 .text-white {

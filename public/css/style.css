@@ -74,86 +74,135 @@ body {
 
 nav {
   position: absolute;
-  z-index: 9999;
+  z-index: 1000;
   top: 0;
   left: 0;
   color: #fff;
   width: 100%;
 }
 
-nav .wrapper-nav {
+nav .menu-btn {
   position: absolute;
   top: 20px;
   right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-nav .wrapper-nav input[type="checkbox"] {
+nav .menu-btn .menu-btn__burger {
+  width: 45px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+          box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+nav .menu-btn .menu-btn__burger::before, nav .menu-btn .menu-btn__burger::after {
+  content: '';
   position: absolute;
-  width: 30px;
-  height: 30px;
-  top: 30px;
-  right: 25px;
-  opacity: 0;
-  z-index: 3;
+  width: 45px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+          box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-nav .wrapper-nav input[type="checkbox"]:checked ~ .menu-options {
-  visibility: visible;
+nav .menu-btn .menu-btn__burger::before {
+  -webkit-transform: translateY(-16px);
+          transform: translateY(-16px);
 }
 
-nav .wrapper-nav input[type="checkbox"]:checked ~ .fa-bars {
-  visibility: collapse;
+nav .menu-btn .menu-btn__burger::after {
+  -webkit-transform: translateY(16px);
+          transform: translateY(16px);
 }
 
-nav .wrapper-nav input[type="checkbox"]:checked ~ .fa-times {
-  visibility: visible;
+nav .menu-btn.open .menu-btn__burger {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-nav .wrapper-nav .fa-bars,
-nav .wrapper-nav .fa-times {
-  font-size: 30px;
+nav .menu-btn.open .menu-btn__burger::before {
+  -webkit-transform: rotate(45deg) translate(35px, -35px);
+          transform: rotate(45deg) translate(35px, -35px);
+}
+
+nav .menu-btn.open .menu-btn__burger::after {
+  -webkit-transform: rotate(-45deg) translate(35px, 35px);
+          transform: rotate(-45deg) translate(35px, 35px);
+}
+
+nav #menu {
   position: absolute;
   top: 20px;
-  right: 20px;
-  z-index: 1;
+  right: 90px;
+  display: none !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-nav .wrapper-nav .fa-times {
-  visibility: collapse;
+nav #menu.active {
+  display: block !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-nav .wrapper-nav .menu-options {
-  visibility: hidden;
-  list-style: none;
+nav #menu ul {
+  width: 300px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
   margin: 0;
-  position: relative;
-  top: 0;
-  right: 0;
+  padding: 0;
+  width: 306px;
+}
+
+nav #menu li {
+  list-style: none;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #fff;
+  color: #fffafa;
+  font-size: 20px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
+  text-align: center;
+  -webkit-transition: all .9s ease;
+  transition: all .9s ease;
 }
 
-nav .wrapper-nav .menu-options li {
-  width: 210px;
-}
-
-nav .wrapper-nav .menu-options li a {
+nav #menu li a {
   text-decoration: none;
   color: #fff;
-  text-align: center;
-  -webkit-transition: margin-left 0.5s ease;
-  transition: margin-left 0.5s ease;
+  text-align: left;
+  padding: 0;
+  text-transform: uppercase;
 }
 
-nav .wrapper-nav .menu-options li a:hover {
-  color: #0471b6;
-  margin-left: 10px;
-  font-weight: bold;
-}
-
-nav .wrapper-nav .menu-options > li:not(:last-child) {
-  margin-bottom: 8px;
+nav #menu li:hover {
+  background-color: rgba(4, 113, 182, 0.95);
+  width: 325px;
 }
 
 .grid-container {

@@ -169,13 +169,12 @@ nav #menu.active {
 }
 
 nav #menu ul {
-  width: 300px;
+  width: 230px;
   height: auto;
   background-color: rgba(0, 0, 0, 0.6);
   display: block;
   margin: 0;
   padding: 0;
-  width: 306px;
 }
 
 nav #menu li {
@@ -183,13 +182,16 @@ nav #menu li {
   display: block;
   width: 100%;
   height: auto;
-  border-bottom: 2px solid #fff;
   color: #fffafa;
   font-size: 20px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   -webkit-transition: all .9s ease;
   transition: all .9s ease;
+}
+
+nav #menu li:not(:last-child) {
+  border-bottom: 2px solid #fff;
 }
 
 nav #menu li a {
@@ -202,7 +204,7 @@ nav #menu li a {
 
 nav #menu li:hover {
   background-color: rgba(4, 113, 182, 0.95);
-  width: 325px;
+  width: 235px;
 }
 
 .grid-container {

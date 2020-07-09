@@ -677,6 +677,9 @@ footer p:last-child {
   footer .font-size {
     font-size: 14px;
   }
+  nav {
+    display: none !important;
+  }
 }
 
 @media only screen and (min-device-width: 659px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
@@ -900,7 +903,10 @@ footer p:last-child {
     padding: 40px 150px;
   }
   footer .font-size {
-    font-size: 15px;
+    font-size: 10px;
+  }
+  nav {
+    display: none !important;
   }
 }
 

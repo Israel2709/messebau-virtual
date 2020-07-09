@@ -675,6 +675,9 @@ footer p:last-child {
   .slider-size {
     height: 50vh;
   }
+  .margin-projects {
+    margin-top: 140px;
+  }
   .title-principal {
     margin-top: 12vw;
   }

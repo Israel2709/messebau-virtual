@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
 }
 
@@ -576,6 +576,11 @@ footer .social-networks li {
 footer .social-networks li a {
   text-decoration: none;
   color: #fff;
+}
+
+footer .social-networks li a img {
+  width: 20px;
+  height: 20px;
 }
 
 footer p:last-child {

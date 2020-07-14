@@ -315,13 +315,31 @@ nav {
       background-image: url("../img/grid-item-25.jpg");
     }
     &26 {
-      display: none!important;;
+      display: none!important;
+      #full-size-carousel-2 {
+        .carousel-inner {
+          .carousel-item {
+            .margin-top-custom {
+              margin-top: calc(100% - 59%);
+            }
+          }
+        }
+      }
     }
     &27 {
-      display: none!important;;
+      display: none!important;
     }
     &28 {
-      display: none!important;;
+      display: none!important;
+      #full-size-carousel {
+        .carousel-inner {
+          .carousel-item {
+            .margin-top-custom {
+              margin-top: calc(100% - 59%);
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -396,12 +396,20 @@ nav #menu li:hover {
   display: none !important;
 }
 
+.grid-container .grid-item-26 #full-size-carousel-2 .carousel-inner .carousel-item .margin-top-custom {
+  margin-top: calc(100% - 59%);
+}
+
 .grid-container .grid-item-27 {
   display: none !important;
 }
 
 .grid-container .grid-item-28 {
   display: none !important;
+}
+
+.grid-container .grid-item-28 #full-size-carousel .carousel-inner .carousel-item .margin-top-custom {
+  margin-top: calc(100% - 59%);
 }
 
 .logo {

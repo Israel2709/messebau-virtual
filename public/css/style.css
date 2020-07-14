@@ -578,6 +578,11 @@ footer .social-networks li a {
   color: #fff;
 }
 
+footer .social-networks li a img {
+  width: 20px;
+  height: 20px;
+}
+
 footer p:last-child {
   color: #7b848d;
 }

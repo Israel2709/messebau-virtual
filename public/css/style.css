@@ -689,7 +689,7 @@ footer p:last-child {
   footer .font-size {
     font-size: 14px;
   }
-  nav {
+  .menu-btn {
     display: none !important;
   }
 }
@@ -917,15 +917,12 @@ footer p:last-child {
   footer .font-size {
     font-size: 10px;
   }
-  nav {
+  .menu-btn {
     display: none !important;
   }
 }
 
 @media only screen and (max-width: 425px) {
-  nav {
-    display: none;
-  }
   .grid-container {
     -ms-grid-columns: 100vw;
         grid-template-columns: 100vw;
@@ -1160,6 +1157,9 @@ footer p:last-child {
   }
   footer .font-size {
     font-size: 13px;
+  }
+  .menu-btn {
+    display: none !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

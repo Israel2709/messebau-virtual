@@ -581,10 +581,10 @@ footer {
       font-size: 14px;
     }
   }
-  nav {
-    display: none!important;
+  .menu-btn{
+    display: none !important;
   }
-
+  
 }
 
 //tablet portrait
@@ -804,16 +804,13 @@ footer {
       font-size: 10px;
     }
   }
-  nav {
+  .menu-btn {
     display: none !important;
   }
 }
 
 // mobile
 @media only screen and (max-width: 425px) {
-  nav {
-    display: none;
-  }
   .grid-container {
     grid-template-columns: 100vw;
     grid-gap: 1px;
@@ -1037,5 +1034,8 @@ footer {
     .font-size {
       font-size: 13px;
     }
+  }
+  .menu-btn{
+    display:none !important;
   }
 }

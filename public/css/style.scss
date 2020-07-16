@@ -257,6 +257,7 @@ nav {
       background-image: url("../img/grid-item-3.jpg");
     }
     &4 {
+      
     }
     &5 {
     }
@@ -731,12 +732,12 @@ footer {
       }
     }
   }
-  #our-clients {
-    margin-top: 10vh;
+  #clients {
+    // margin-top: 10vh;
   }
   .title-principal {
     font: size 18px;
-    margin-top: 0px !important;
+    margin-top: 15vw!important;
   }
   .text-white {
     font-size: 15px;
@@ -812,9 +813,9 @@ footer {
   .slider-size {
     height: 50vh;
   }
-  .title-principal{
-    margin-top: 20vw !important;
-  }
+  // .title-principal{
+  //   margin-top: 20vw !important;
+  // }
   footer {
     padding: 40px 150px;
     .font-size {
@@ -962,7 +963,7 @@ footer {
       }
     }
   }
-  #our-clients {
+  #clients {
     margin-top: 60px;
   }
   .title-principal {

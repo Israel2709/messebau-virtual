@@ -839,12 +839,9 @@ footer p:last-child {
   .grid-container .grid-item-28 {
     display: unset !important;
   }
-  #our-clients {
-    margin-top: 10vh;
-  }
   .title-principal {
     font: size 18px;
-    margin-top: 0px !important;
+    margin-top: 15vw !important;
   }
   .text-white {
     font-size: 15px;
@@ -915,9 +912,6 @@ footer p:last-child {
   }
   .slider-size {
     height: 50vh;
-  }
-  .title-principal {
-    margin-top: 20vw !important;
   }
   footer {
     padding: 40px 150px;
@@ -1082,7 +1076,7 @@ footer p:last-child {
     -ms-grid-row-span: 1;
     grid-row: 5 / span 1;
   }
-  #our-clients {
+  #clients {
     margin-top: 60px;
   }
   .title-principal {

@@ -67,6 +67,14 @@ body {
   left: 9px;
 }
 
+.icons-fixed .wrapper-icons .wrapper-icon img {
+  width: 35px;
+}
+
+.icons-fixed .wrapper-icons .wrapper-icon img.wapp {
+  width: 32px;
+}
+
 .icon-contact {
   width: 35px;
   margin-top: 10px;

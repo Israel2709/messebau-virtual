@@ -51,6 +51,12 @@ body {
         top: 9px;
         left: 9px;
       }
+      img{
+        width:35px;
+        &.wapp{
+          width:32px;
+        }
+      }
     }
   }
 }

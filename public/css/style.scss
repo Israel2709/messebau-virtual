@@ -361,7 +361,7 @@ nav {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    .title-principal,{
+    .title-principal{
       margin-top:0;
     }
   }
@@ -779,7 +779,7 @@ footer {
   }
   .icon-contact {
     width: 70%;
-    height: 20%;
+    // height: 20%;
     margin-top: 10px;
   }
   #full-size-carousel {

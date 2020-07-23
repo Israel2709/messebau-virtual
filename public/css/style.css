@@ -221,7 +221,7 @@ nav #menu li:hover {
   grid-gap: 0px;
   background-color: white;
   -ms-grid-columns: (33.33vw)[3];
-      grid-template-columns: repeat(3, 33.33vw);
+  grid-template-columns: repeat(3, 33.33vw);
   grid-gap: 2px;
   padding: 0;
   width: 100%;
@@ -900,7 +900,6 @@ footer p:last-child {
   }
   .icon-contact {
     width: 70%;
-    height: 20%;
     margin-top: 10px;
   }
   #full-size-carousel .carousel-item {

@@ -433,6 +433,15 @@ nav #menu li:hover {
   display: none !important;
 }
 
+.grid-container .grid-item-26 #full-size-carousel-2 .carousel-item-next, .grid-container .grid-item-26 #full-size-carousel-2 .carousel-item-prev, .grid-container .grid-item-26 #full-size-carousel-2 .carousel-item.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .grid-container .grid-item-26 #full-size-carousel-2 .carousel-inner .carousel-item .margin-top-custom {
   margin-top: calc(100% - 70%);
 }
@@ -443,6 +452,15 @@ nav #menu li:hover {
 
 .grid-container .grid-item-28 {
   display: none !important;
+}
+
+.grid-container .grid-item-28 #full-size-carousel .carousel-item-next, .grid-container .grid-item-28 #full-size-carousel .carousel-item-prev, .grid-container .grid-item-28 #full-size-carousel .carousel-item.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .grid-container .grid-item-28 #full-size-carousel .carousel-inner .carousel-item .margin-top-custom {
@@ -931,6 +949,14 @@ footer p:last-child {
     width: 70%;
     margin-top: 10px;
   }
+  #full-size-carousel .carousel-item-next, #full-size-carousel .carousel-item-prev, #full-size-carousel .carousel-item.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
   #full-size-carousel .carousel-item {
     width: 50vw;
     height: 50vh;
@@ -958,6 +984,14 @@ footer p:last-child {
   }
   #full-size-carousel .carousel-item:nth-of-type(7) {
     background-image: url("../img/slider/slider-mobile-2/7.jpg");
+  }
+  #full-size-carousel-2 .carousel-item-next, #full-size-carousel-2 .carousel-item-prev, #full-size-carousel-2 .carousel-item.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   #full-size-carousel-2 .carousel-item {
     width: 50vw;
@@ -1144,9 +1178,6 @@ footer p:last-child {
     -ms-grid-row-span: 1;
     grid-row: 5 / span 1;
   }
-  #clients {
-    margin-top: 60px;
-  }
   .title-principal {
     font-size: 16px;
   }
@@ -1165,6 +1196,14 @@ footer p:last-child {
   .icon-contact {
     width: 30px;
     margin-top: 5px;
+  }
+  #full-size-carousel .carousel-item-next, #full-size-carousel .carousel-item-prev, #full-size-carousel .carousel-item.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   #full-size-carousel .carousel-item {
     width: 100vw;
@@ -1194,6 +1233,14 @@ footer p:last-child {
   #full-size-carousel .carousel-item:nth-of-type(7) {
     background-image: url("../img/slider/slider-mobile-2/7.jpg");
   }
+  #full-size-carousel-2 .carousel-item-next, #full-size-carousel-2 .carousel-item-prev, #full-size-carousel-2 .carousel-item.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
   #full-size-carousel-2 .carousel-item {
     width: 100vw;
     height: 50vh;
@@ -1215,9 +1262,6 @@ footer p:last-child {
   }
   .slider-size {
     height: 50vh;
-  }
-  .title-principal {
-    margin-top: 25vw !important;
   }
   footer .font-size {
     font-size: 13px;

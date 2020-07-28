@@ -347,6 +347,10 @@ nav {
     &26 {
       display: none!important;
       #full-size-carousel-2 {
+        .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+          display:flex;
+          align-items: flex-end;
+        }
         .carousel-inner {
           .carousel-item {
             .margin-top-custom {
@@ -362,6 +366,10 @@ nav {
     &28 {
       display: none!important;
       #full-size-carousel {
+        .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+          display:flex;
+          align-items: flex-end;
+        }
         .carousel-inner {
           .carousel-item {
             .margin-top-custom {
@@ -806,6 +814,10 @@ footer {
     margin-top: 10px;
   }
   #full-size-carousel {
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+      display:flex;
+      align-items: flex-end;
+    }
     .carousel-item {
       width: 50vw;
       height: 50vh;
@@ -836,6 +848,10 @@ footer {
     }
   }
   #full-size-carousel-2 {
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+      display:flex;
+      align-items: flex-end;
+    }
     .carousel-item {
       width: 50vw;
       height: 50vh;
@@ -994,8 +1010,6 @@ footer {
         display: unset!important;
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
-        #slider-images-custom-1 {
-        }
       }
       &27 {
         display: unset!important;
@@ -1008,9 +1022,6 @@ footer {
         grid-row: 5 / span 1;
       }
     }
-  }
-  #clients {
-    margin-top: 60px;
   }
   .title-principal {
     font-size: 16px;
@@ -1032,6 +1043,10 @@ footer {
     margin-top: 5px;
   }
   #full-size-carousel {
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+      display:flex;
+      align-items: flex-end;
+    }
     .carousel-item {
       width: 100vw;
       height: 50vh;
@@ -1062,6 +1077,10 @@ footer {
     }
   }
   #full-size-carousel-2 {
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+      display:flex;
+      align-items: flex-end;
+    }
     .carousel-item {
       width: 100vw;
       height: 50vh;
@@ -1085,9 +1104,7 @@ footer {
   .slider-size {
     height: 50vh;
   }
-  .title-principal{
-    margin-top: 25vw !important;
-  }
+
   footer {
     .font-size {
       font-size: 13px;

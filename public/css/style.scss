@@ -26,6 +26,10 @@ body {
   font-family: 'Roboto', sans-serif;
   position: relative;
 }
+
+.bg-black{
+  background-color:rgba(0,0,0,.7)
+}
 .icons-fixed {
   position: fixed;
   z-index: 1;
@@ -809,22 +813,25 @@ footer {
       background-position: center;
       background-repeat: no-repeat;
       &:first-child {
-        background-image: url("https://picsum.photos/id/27/600");
+        background-image: url("../img/slider/slider-mobile-2/1.jpg");
       }
       &:nth-of-type(2) {
-        background-image: url("https://picsum.photos/id/175/600");
+        background-image: url("../img/slider/slider-mobile-2/2.jpg");
       }
       &:nth-of-type(3) {
-        background-image: url("https://picsum.photos/id/123/600");
+        background-image: url("../img/slider/slider-mobile-2/3.jpg");
       }
       &:nth-of-type(4) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+        background-image: url("../img/slider/slider-mobile-2/4.jpg");
       }
       &:nth-of-type(5) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+        background-image: url("../img/slider/slider-mobile-2/5.jpg");
       }
       &:nth-of-type(6) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+        background-image: url("../img/slider/slider-mobile-2/6.jpg");
+      }
+      &:nth-of-type(7) {
+        background-image: url("../img/slider/slider-mobile-2/7.jpg");
       }
     }
   }
@@ -836,25 +843,16 @@ footer {
       background-position: center;
       background-repeat: no-repeat;
       &:first-child {
-        background-image: url("https://picsum.photos/id/27/600");
+        background-image: url("../img/slider/slider-mobile-1/1-showroom-virtual.png");
       }
       &:nth-of-type(2) {
-        background-image: url("https://picsum.photos/id/175/600");
+        background-image: url("../img/slider/slider-mobile-1/2-metricas.png");
       }
       &:nth-of-type(3) {
-        background-image: url("https://picsum.photos/id/123/600");
+        background-image: url("../img/slider/slider-mobile-1/3-clientes-potenciales.png");
       }
       &:nth-of-type(4) {
-        background-image: url("https://picsum.photos/id/123/600");
-      }
-      &:nth-of-type(5) {
-        background-image: url("https://picsum.photos/200/300/?blur");
-      }
-      &:nth-of-type(6) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
-      }
-      &:nth-of-type(7) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
+        background-image: url("../img/slider/slider-mobile-1/4-tiempo-real.png");
       }
     }
   }
@@ -1041,22 +1039,25 @@ footer {
       background-position: center;
       background-repeat: no-repeat;
       &:first-child {
-        background-image: url("https://picsum.photos/id/27/600");
+        background-image: url("../img/slider/slider-mobile-2/1.jpg");
       }
       &:nth-of-type(2) {
-        background-image: url("https://picsum.photos/id/175/600");
+        background-image: url("../img/slider/slider-mobile-2/2.jpg");
       }
       &:nth-of-type(3) {
-        background-image: url("https://picsum.photos/id/123/600");
+        background-image: url("../img/slider/slider-mobile-2/3.jpg");
       }
       &:nth-of-type(4) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+        background-image: url("../img/slider/slider-mobile-2/4.jpg");
       }
       &:nth-of-type(5) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+        background-image: url("../img/slider/slider-mobile-2/5.jpg");
       }
       &:nth-of-type(6) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/breakfast-criminal.jpg");
+        background-image: url("../img/slider/slider-mobile-2/6.jpg");
+      }
+      &:nth-of-type(7) {
+        background-image: url("../img/slider/slider-mobile-2/7.jpg");
       }
     }
   }
@@ -1068,25 +1069,16 @@ footer {
       background-position: center;
       background-repeat: no-repeat;
       &:first-child {
-        background-image: url("https://picsum.photos/id/27/600");
+        background-image: url("../img/slider/slider-mobile-1/1-showroom-virtual.png");
       }
       &:nth-of-type(2) {
-        background-image: url("https://picsum.photos/id/175/600");
+        background-image: url("../img/slider/slider-mobile-1/2-metricas.png");
       }
       &:nth-of-type(3) {
-        background-image: url("https://picsum.photos/id/123/600");
+        background-image: url("../img/slider/slider-mobile-1/3-clientes-potenciales.png");
       }
       &:nth-of-type(4) {
-        background-image: url("https://picsum.photos/id/123/600");
-      }
-      &:nth-of-type(5) {
-        background-image: url("https://picsum.photos/200/300/?blur");
-      }
-      &:nth-of-type(6) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
-      }
-      &:nth-of-type(7) {
-        background-image: url("https://www.gastronomistas.com/wp-content/uploads/healthyhappened.jpg");
+        background-image: url("../img/slider/slider-mobile-1/4-tiempo-real.png");
       }
     }
   }

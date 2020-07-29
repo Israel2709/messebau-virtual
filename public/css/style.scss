@@ -493,12 +493,14 @@ nav {
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.8);
   margin-top: 25px;
   margin-left: 20px;
+  margin-bottom: 0px;
 }
 .subtitle-image {
   color: white;
   font-size: 12px;
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.8);
   margin-left: 20px;
+  margin-top: 0px;
 }
 .modal-bg {
   background-color: #0a0a0a;
@@ -511,7 +513,7 @@ nav {
 }
 // footer
 footer {
-  padding: 40px 61px;
+  padding: 60px 61px;
   background-color: black;
   margin-top: 1px;
 

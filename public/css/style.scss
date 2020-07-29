@@ -78,18 +78,15 @@ nav {
   width: 100%;
   .menu-btn {
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 100px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
-    
+
     .menu-btn__burger {
-      width: 45px;
+      width: 30px;
       height: 2px;
       background-color: #fff;
       border-radius: 5px;
@@ -100,8 +97,9 @@ nav {
       &::after {
         content: '';
         position: absolute;
-        width: 45px;
+        width: 30px;
         height: 2px;
+        
         background-color: #fff;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
@@ -110,9 +108,11 @@ nav {
 
       &::before {
         transform: translateY(-16px);
+        top: 6px;
       }
       &::after {
         transform: translateY(16px);
+        top: -6px;
       }
     }
     // animation
@@ -123,10 +123,10 @@ nav {
         box-shadow: none;
       }
       .menu-btn__burger::before {
-        transform: rotate(45deg) translate(35px, -35px);
+        transform: rotate(45deg) translate(28px, -36.5px);
       }
       .menu-btn__burger::after {
-        transform: rotate(-45deg) translate(35px, 35px);
+        transform: rotate(-45deg) translate(28px, 36.5px);
       }
     }
   }
@@ -187,11 +187,9 @@ nav {
 }
 .grid-container {
   display: grid;
-  grid-gap: 0px;
   background-color: white;
   grid-template-columns: repeat(3, 33.33vw);
   grid-gap: 2px;
-  padding: 0;
   width: 100%;
   overflow: hidden;
   [class^="grid-item"] {
@@ -279,8 +277,10 @@ nav {
     &2 {
       grid-column: 1 / span 2;
       grid-row: 2 / span 2;
-      height: 66.66vh;
-      width: 66.66vw;
+      // height: 66.66vh;
+      height: 100%;
+      // width: 66.66vw;
+      width: 100%;
     }
     &3 {
       background-image: url("../img/grid-item-3.jpg");
@@ -299,8 +299,10 @@ nav {
     &10 {
       grid-column: 2 / span 2;
       grid-row: 5 / span 2;
-      height: 66.66vh;
-      width: 66.66vw;
+      // height: 66.66vh;
+      height: 100%;
+      // width: 66.66vw;
+      width: 100%;
     }
     &11 {
       background-image: url("../img/grid-item-11.jpg");
@@ -311,8 +313,11 @@ nav {
     &14 {
       grid-column: 1 / span 2;
       grid-row: 8 / span 2;
-      height: 66.66vh;
-      width: 66.66vw;
+      // height: 66.66vh;
+      height: 100%;
+      // width: 66.66vw;
+      width: 100%;
+
     }
     &15 {
       background-image: url("../img/grid-item-15.jpeg");
@@ -332,8 +337,11 @@ nav {
     &22 {
       grid-column: 2 / span 2;
       grid-row: 11 / span 2;
-      height: 66.66vh;
-      width: 66.66vw;
+      // height: 66.66vh;
+      height: 100%;
+      // width: 66.66vw;
+      width: 100%;
+
     }
     &23 {
       background-image: url("../img/grid-item-23.jpeg");

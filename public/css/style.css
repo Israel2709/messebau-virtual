@@ -31,6 +31,16 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.link-style {
+  text-decoration: none;
+  color: #8b8e91;
+}
+
+.link-style:hover {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
 .icons-fixed {
   position: fixed;
   z-index: 1;
@@ -661,8 +671,8 @@ footer .social-networks li a img {
   height: 20px;
 }
 
-footer p:last-child {
-  color: #7b848d;
+footer .wrapper-footer-last {
+  color: #8b8e91;
 }
 
 .cursor-pointer {

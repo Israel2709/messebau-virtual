@@ -1,5 +1,7 @@
 $main-blue: #0471b6;
 $main-red: #b2121c;
+$dark: #8b8e91;
+$dark-light: #f8f8f8;
 $tablet-landscape-min: 768px;
 $tablet-landscape-max: 1024px;
 
@@ -29,6 +31,14 @@ body {
 
 .bg-black{
   background-color:rgba(0,0,0,.7)
+}
+.link-style {
+  text-decoration: none;
+  color: $dark;
+  &:hover {
+    text-decoration: none;
+    color: $dark-light;
+  }
 }
 .icons-fixed {
   position: fixed;
@@ -558,8 +568,8 @@ footer {
       }
     }
   }
-  p:last-child {
-    color: #7b848d;
+  .wrapper-footer-last{
+    color: $dark;
   }
 }
 

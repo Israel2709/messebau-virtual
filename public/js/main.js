@@ -7,4 +7,13 @@ menuBtn.addEventListener('click', () => {
 })
 
 
+Modernizr.on('webp', result => {
+    if(result) {
+        console.log('Yeii si tiene webp')
+    }else{
+        console.log('Nou tienes webp D:') 
+    }
+})
+
+console.log(Modernizr)
 
